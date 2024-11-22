@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Engenheiros para Todos - ONG</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #004a8d;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+    }
+    nav {
+      background: #003a6b;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      margin: 0 0.5rem;
+      font-size: 1.1rem;
+      border-radius: 4px;
+      transition: background 0.3s ease;
+    }
+    nav a:hover {
+      background: #002d53;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      background: #fff;
+      margin-bottom: 1.5rem;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      margin-top: 0;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .cta a {
+      text-decoration: none;
+      color: #fff;
+      background: #004a8d;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      font-size: 1.2rem;
+    }
+    .cta a:hover {
+      background: #003a6b;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+  <!-- Script do VLibras -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Engenheiros para Todos</h1>
+    <p>Transformando o mercado de tecnologia com diversidade e inclusão</p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="./html/formulario.html">Formulário</a>
+    <a href="./html/noticia.html">Notícia</a>
+    <a href="./html/ajuda.html">Ajuda</a>
+    <a href="./html/contato.html">Contato</a>
+  </nav>
+  <main>
+    <section>
+      <h2>Quem Somos</h2>
+      <p>A ONG <strong>Engenheiros para Todos</strong> é dedicada a apoiar e integrar engenheiros de software com deficiência ao mercado de tecnologia. Nosso objetivo é criar um ambiente onde todos possam desenvolver seu potencial, valorizando a diversidade.</p>
+    </section>
+    <section>
+      <h2>O Que Fazemos</h2>
+      <ul>
+        <li>Promovemos programas de capacitação em tecnologia acessível.</li>
+        <li>Conectamos profissionais com empresas que valorizam a inclusão.</li>
+        <li>Desenvolvemos projetos voltados para acessibilidade digital.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Participe da Nossa Comunidade</h2>
+      <p>Se você é engenheiro de software e tem algum tipo de deficiência, queremos ouvir sua história e oferecer suporte para seu crescimento profissional.</p>
+    </section>
+    <div class="cta">
+      <a href="formulario.html">Inscreva-se Agora</a>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Engenheiros para Todos. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Container do VLibras -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <script>
+    // Inicializando o VLibras
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+</body>
+</html>
